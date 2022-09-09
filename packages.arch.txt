@@ -1,0 +1,14 @@
+neovim
+ttf-font-awesome
+ttc-iosevka
+base-devel
+git
+rustup
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+cups
+zsh
+tmux
+wget
+firefox
