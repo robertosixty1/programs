@@ -10,6 +10,4 @@ if getenv("USER") != "root":
     run(["sudo", "python", __file__])
     exit(0)
 
-run(["pacman", "-Syu", "--needed"] + get_programs_from_packagestxt("packages.arch.txt"))
-
-run(["systemctl", "enable", "--now", "cups.service"])
+run(["apt", "install"] + get_programs_from_packagestxt("packages.ubuntu.txt"))
