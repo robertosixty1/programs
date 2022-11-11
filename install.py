@@ -4,6 +4,7 @@ from os import getenv, listdir, makedirs, walk
 from os.path import isdir, isfile, join, dirname, basename
 from shutil import copy, move
 from subprocess import run
+from sys import argv
 
 def get_programs_from_packagestxt(f):
     return open(f).read().split()
@@ -14,7 +15,10 @@ if getenv("USER") != "root":
 
 HOME = "/home/" + listdir("/home")[0]
 
-run(["apt", "install"] + get_programs_from_packagestxt("packages.ubuntu.txt"))
+if argv[1] == "arch":
+    run(["pacman", "-Syu"] + get_programs_from_packagestxt("packages.arch.txt"))
+else:
+    run(["apt", "install"] + get_programs_from_packagestxt("packages.ubuntu.txt"))
 
 # install fonts
 

@@ -1,0 +1,5 @@
+neovim
+ttf-font-awesome
+base-devel
+git
+zsh
