@@ -16,7 +16,7 @@ if getenv("USER") != "root":
 HOME = "/home/" + listdir("/home")[0]
 
 if argv[1] == "arch":
-    run(["pacman", "-Syu"] + get_programs_from_packagestxt("packages.arch.txt"))
+    run(["pacman", "-Syu", "--needed"] + get_programs_from_packagestxt("packages.arch.txt"))
 else:
     run(["apt", "install"] + get_programs_from_packagestxt("packages.ubuntu.txt"))
 
