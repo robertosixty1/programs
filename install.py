@@ -10,7 +10,7 @@ def get_programs_from_packagestxt(f):
     return open(f).read().split()
 
 if getenv("USER") != "root":
-    run(["sudo", "python", __file__])
+    run(["sudo", "python", __file__] + argv[1:])
     exit(0)
 
 HOME = "/home/" + listdir("/home")[0]
