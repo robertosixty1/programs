@@ -5,3 +5,7 @@ git
 zsh
 wget
 unzip
+dunst
+picom
+network-manager-applet
+volumeicon
