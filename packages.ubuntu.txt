@@ -3,3 +3,4 @@ fonts-font-awesome
 build-essential
 git
 zsh
+stow
