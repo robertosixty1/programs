@@ -3,4 +3,3 @@ ttf-font-awesome
 base-devel
 git
 zsh
-stow
