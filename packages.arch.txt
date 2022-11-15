@@ -9,3 +9,4 @@ dunst
 picom
 network-manager-applet
 volumeicon
+dmenu
