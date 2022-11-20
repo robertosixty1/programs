@@ -17,6 +17,8 @@ HOME = "/home/" + listdir("/home")[0]
 
 if argv[1] == "arch":
     run(["pacman", "-Syu", "--needed"] + get_programs_from_packagestxt("packages.arch.txt"))
+elif argv[1] == "fedora":
+    run(["dnf", "install"] + get_programs_from_packagestxt("packages.fedora.txt"))
 else:
     run(["apt", "install"] + get_programs_from_packagestxt("packages.ubuntu.txt"))
 

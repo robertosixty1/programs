@@ -1,0 +1,9 @@
+neovim
+fontawesome-fonts
+make
+automake
+gcc
+gcc-c++
+kernel-devel
+git
+zsh
