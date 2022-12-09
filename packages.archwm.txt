@@ -1,0 +1,10 @@
+dunst
+picom
+network-manager-applet
+volumeicon
+nitrogen
+awesome
+sxhkd
+mate-extra
+caja
+rofi
