@@ -42,3 +42,4 @@ if not isfile(HOME + "/.cache/fonts.zip"):
     for f in fonts:
         if not (f.endswith(".md") or f.endswith(".txt") or f.endswith(".MD") or f.endswith(".TXT")):
             copy(HOME + "/.cache/fonts/" + f, "/usr/share/fonts/" + f)
+
