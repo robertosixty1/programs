@@ -8,3 +8,4 @@ sxhkd
 mate-extra
 caja
 rofi
+rofi-emoji
