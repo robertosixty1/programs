@@ -9,3 +9,4 @@ mate-extra
 caja
 rofi
 rofi-emoji
+lxsession
