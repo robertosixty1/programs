@@ -10,3 +10,4 @@ caja
 rofi
 rofi-emoji
 lxsession
+xclip
